@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Asistencia"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/folioButton"
+        style="@style/Botones"
+        android:text="Folio"
+        android:background="@color/azul"/>
+    <EditText
+        android:id="@+id/folioEdit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingrese Folio"
+        android:gravity="center_horizontal"/>
+   <Button
+       android:id="@+id/confirmarFolioButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="Confirmar"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo_actuaria"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center_vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Desarrolladores"
+    android:orientation="vertical"
+    android:background="@drawable/logo">
+    <TextView
+        style="@style/Nombres"
+        android:text="Acatl" />
+    <TextView
+        style="@style/Nombres"
+        android:text="Gabriela"/>
+    <TextView
+        style="@style/Nombres"
+        android:text="Fernando"/>
+    <TextView
+        style="@style/Nombres"
+        android:text="Dalia"/>
+    <TextView
+        style="@style/Nombres"
+        android:text="Daniel"/>
+    <TextView
+        style="@style/Nombres"
+        android:text="Nallely"/>
+
+</LinearLayout>

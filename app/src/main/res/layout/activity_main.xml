@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/AsistenciaButton"
+            style="@style/Botones"
+            android:text="Asistencia"
+            android:background="@color/azul"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:id="@+id/EliminarAsistenciaBtn"
+            style="@style/Botones"
+            android:text="Eliminar Asistencia"
+            android:layout_below="@+id/AsistenciaButton"
+            android:background="@color/dorado"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_actuaria"
+            android:layout_below="@+id/EliminarAsistenciaBtn"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/DesarrolladoresButton"
+            style="@style/Botones"
+            android:layout_alignParentBottom="true"
+            android:text="Desarrolladores"
+            android:background="@color/azul"/>
+    </RelativeLayout>
+</ScrollView>
